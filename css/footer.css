@@ -1,0 +1,13 @@
+footer {
+  background-color: var(--primary-color);
+  padding: 5px 0px;
+}
+footer a {
+  color: var(--light-color);
+  font-size: 3rem;
+  margin: 0px 10px;
+}
+footer a:hover,
+footer a:active {
+  color: var(--extralight-color);
+}
