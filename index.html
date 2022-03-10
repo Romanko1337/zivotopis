@@ -11,8 +11,10 @@
     ></script>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/zrucnosti.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <meta
       name="description"
@@ -24,19 +26,17 @@
   <body>
     <header>
       <h1>Roman Šnírer</h1>
+      <hr />
+      <nav class="navigacia">
+        <a href="#akysombol"><h2>O mne</h2></a>
+        <a href="#zrucnosti"><h2 class="header-zrucnosti">Zručnosti</h2></a>
+        <a href="#vmojomsvete"><h2>V mojom svete</h2></a>
+      </nav>
     </header>
-
-    <nav>
-      <ul>
-        <li>O mne</li>
-        <li>Zručnosti</li>
-        <li>V mojom svete</li>
-      </ul>
-    </nav>
 
     <main>
       <img src="" alt="" />
-      <h2>Aký som a aký som bol</h2>
+      <h2 id="akysombol">Aký som a aký som bol</h2>
       <section class="zivotopis">
         <p>
           Študoval som, (ak sa to v tej etape dalo tak nazvať), grafiku na
@@ -50,7 +50,7 @@
           Presťahoval som sa k otcovi do Prievidze, kde som aj nasledujúcich 6
           rokov žil. Na začiatok som pracoval v NAY a.s. ako predajca, neskôr
           som bol v sklade s vodárenskými potrebami, kde som sa na chvíľu môjho
-          pracovného pomeru ocitol na pozícií vedúceho skladu. Žiaľ, okolnosti v
+          pracovného pomeru ocitol na pozícii vedúceho skladu. Žiaľ, okolnosti v
           korporácii ma donútili podať výpoveď a rozlúčiť sa s týmto miestom. Z
           jasného neba mi prišla ponuka na predajcu automobilov značky
           Renault/Dacia, ktorú som okamžite prijal. Bol to však zástup za
@@ -81,64 +81,65 @@
       </section>
     </main>
 
-    <section class="zrucnosti">
+    <section id="zrucnosti">
       <h2>Zručnosti</h2>
-      <section id="hodnotenie">
-        <i class="fa-solid fa-battery-quarter"></i>
-        <p>Školenie</p>
-        <i class="fa-solid fa-battery-three-quarters"></i>
-        <p>Používam</p>
-        <i class="fa-solid fa-battery-full"></i>
-        <p>Ovládam</p>
+      <section class="hodnotenie">
+        <p><i class="fa-solid fa-battery-quarter"></i> Školenie</p>
+        <p><i class="fa-solid fa-battery-three-quarters"></i> Používam</p>
+        <p><i class="fa-solid fa-battery-full"></i> Ovládam</p>
       </section>
       <hr />
-      <article class="front-end">
-        <h3>Front-end</h3>
-        HTML <br />
-        CSS <br />
-        JavaScript
-        <hr />
-        Responzívny design <br />
-        CSS root
-        <hr />
-        SASS, SCSS
-        <hr />
-        Bootstrap <br />
-        Tailwind <br />
-        Foundation
-        <hr />
-        jQuery <br />
-        AJAX
-        <hr />
-        GIT
-      </article>
-      <article class="back-end">
-        <h3>Back-end</h3>
-        PHP <br />
-        <hr />
-        Laravel <br />
-        OOP
-        <hr />
-        MAMP
-        <ul>
-          <li>PHP</li>
-          <li>APACHE</li>
-          <li>MySQL</li>
-        </ul>
-        <hr />
-        Hombrew <br />
-        Composer
-      </article>
-      <article class="grafika">
-        <h3>Grafika</h3>
-        Photoshop <br />
-        <hr />
-        Blender
-        <hr />
-        iMovie <br />
-        Sony VEGAS
-      </article>
+      <section class="front-end-grafika">
+        <article class="front-end">
+          <h3>Front-end</h3>
+          HTML <br />
+          CSS <br />
+          JavaScript
+          <hr />
+          Responsive <br />
+          CSS root
+          <hr />
+          SASS, SCSS
+          <hr />
+          Bootstrap <br />
+          Tailwind <br />
+          Foundation
+          <hr />
+          jQuery <br />
+          AJAX
+          <hr />
+          GIT
+        </article>
+        <article class="back-end">
+          <h3>Back-end</h3>
+          PHP <br />
+          <hr />
+          Laravel <br />
+          OOP
+          <hr />
+          MAMP
+          <ul>
+            <li>PHP</li>
+            <li>APACHE</li>
+            <li>MySQL</li>
+          </ul>
+          <hr />
+          Hombrew <br />
+          Composer
+        </article>
+        <article class="grafika">
+          <h3>Grafika</h3>
+          Photoshop <br />
+          <hr />
+          Blender
+          <hr />
+          iMovie <br />
+          Sony VEGAS
+        </article>
+      </section>
     </section>
+
+    <section id="vmojomsvete"></section>
 
     <footer>
       <a href="tel:+421905238936"
