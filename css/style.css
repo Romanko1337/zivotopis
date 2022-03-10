@@ -4,10 +4,30 @@
   --secondary-color: #008f8c;
   --tertiary-color: #0caba8;
   --dark-color: #023535;
-  --light-color: #0fc2c0;
-  --extralight-color: #e4e4e4;
+  --light-color: #d6d6d6;
+  --extralight-color: #eeeeee;
 
   --skolenie-color: #f24b4b;
   --pouzivam-color: #f28705;
   --ovldavam-color: #a9bf04;
+}
+
+/* Nastavanie stánky */
+a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+body {
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.5;
+  background-color: var(--extralight-color);
+}
+H2,
+H3 {
+  color: var(--primary-colors);
+}
+hr {
+  color: var(--dark-color);
 }
