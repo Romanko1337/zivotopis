@@ -27,7 +27,7 @@
 .hodnotenie p {
   margin: 5px 15px;
 }
-.hodnotenie .fa-solid {
+.fa-solid {
   padding-right: 10px;
   margin-left: -10px;
 }
@@ -40,4 +40,13 @@
 }
 ul {
   margin: 0px;
+}
+.baterka-low {
+  color: var(--skolenie-color);
+}
+.baterka-medium {
+  color: var(--pouzivam-color);
+}
+.baterka-high {
+  color: var(--ovldavam-color);
 }
