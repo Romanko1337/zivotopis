@@ -1,0 +1,43 @@
+#zrucnosti {
+  margin: auto;
+  width: 99%;
+  margin-top: 100px;
+  padding: 50px 0px;
+  margin-bottom: 120px;
+
+  background-color: var(--light-color);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+#zrucnosti h2 {
+  margin-top: 0px;
+}
+.hodnotenie {
+  margin: auto;
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+.hodnotenie p {
+  margin: 5px 15px;
+}
+.hodnotenie .fa-solid {
+  padding-right: 10px;
+  margin-left: -10px;
+}
+
+.front-end-grafika {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+ul {
+  margin: 0px;
+}
