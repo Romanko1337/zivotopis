@@ -1,0 +1,13 @@
+/* ROOT colors */
+:root {
+  --primary-color: #015958;
+  --secondary-color: #008f8c;
+  --tertiary-color: #0caba8;
+  --dark-color: #023535;
+  --light-color: #0fc2c0;
+  --extralight-color: #e4e4e4;
+
+  --skolenie-color: #f24b4b;
+  --pouzivam-color: #f28705;
+  --ovldavam-color: #a9bf04;
+}
