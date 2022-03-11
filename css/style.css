@@ -12,7 +12,7 @@
   --ovldavam-color: #a9bf04;
 }
 
-/* Nastavanie stánky */
+/* Nastavanie stánky + H1,H2,H3*/
 a {
   color: var(--dark-color);
   text-decoration: none;

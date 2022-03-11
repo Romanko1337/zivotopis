@@ -1,7 +1,7 @@
 #zrucnosti {
   margin: auto;
   width: 99%;
-  margin-top: 100px;
+  margin-top: 20px;
   padding: 50px 0px;
   margin-bottom: 120px;
 
@@ -49,4 +49,40 @@ ul {
 }
 .baterka-high {
   color: var(--ovldavam-color);
+}
+#click-zrucnosti {
+  display: block;
+  padding-top: 0.1rem;
+}
+@media only screen and (max-width: 965px) {
+  .hodnotenie {
+    width: 67%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .front-end-grafika {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .hodnotenie {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .front-end-grafika {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  .front-end {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .back-end {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .grafika {
+    margin: auto;
+  }
 }
