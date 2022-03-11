@@ -7,8 +7,8 @@
   --light-color: #d6d6d6;
   --extralight-color: #eeeeee;
 
-  --skolenie-color: #f24b4b;
-  --pouzivam-color: #f28705;
+  --skolenie-color: #f24b4bb7;
+  --pouzivam-color: #f28705d3;
   --ovldavam-color: #a9bf04;
 }
 
@@ -28,6 +28,19 @@ H2,
 H3 {
   color: var(--primary-colors);
 }
+h2 {
+  text-transform: uppercase;
+}
 hr {
   color: var(--dark-color);
+}
+.baterka-low,
+.baterka-medium,
+.baterka-high {
+  font-size: 80%;
+}
+.hodnotenie .baterka-low,
+.hodnotenie .baterka-medium,
+.hodnotenie .baterka-high {
+  font-size: 120%;
 }
