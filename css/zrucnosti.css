@@ -68,8 +68,6 @@ ul {
   .hodnotenie {
     width: 100%;
   }
-}
-@media only screen and (max-width: 500px) {
   .front-end-grafika {
     flex-direction: column;
     font-size: 1.2rem;
